@@ -24,7 +24,11 @@ This repository is designed for contributors to practice branching and pull requ
 
 ## Contribution Rules
 - Contributors **cannot** push directly to `main`.
-- All PRs must be reviewed before merging.
+- All Pull Requests must be reviewed before merging.
 - The CI workflow must pass all tests before merging.
+- **Main Branch Protection:** Direct pushes to `main` are blocked. Contributors must use feature branches and create pull requests for review.
+- **Branch Protection Rules:**
+  - Pull requests are **required** before merging.
+  - CI tests must **pass** before merging.
 
 Happy Coding! 🚀
