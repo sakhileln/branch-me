@@ -1,11 +1,14 @@
 def add(a: int, b: int) -> int:
     """Returns the sum of two numbers."""
-    pass  # To be implemented
+    return a+b
 
 def reverse_string(s: str) -> str:
     """Returns the reverse of the given string."""
-    pass  # To be implemented
+    return s[::-1]
 
 def is_even(n: int) -> bool:
     """Returns True if the number is even, otherwise False."""
-    pass  # To be implemented
+    if n % 2 == 0:
+        return True
+    else:
+        return False
