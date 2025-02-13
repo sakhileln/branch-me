@@ -11,4 +11,4 @@ def is_even(n: int) -> bool:
     if n % 2 == 0: # To be implemented
         return True
     else:
-        return False
+        return Falses
